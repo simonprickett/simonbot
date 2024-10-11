@@ -1,0 +1,25 @@
+{
+  "name": "simonbot",
+  "version": "0.0.0",
+  "author": "Simon Prickett",
+  "license": "MIT",
+  "private": true,
+  "keywords": [],
+  "type": "module",
+  "scripts": {
+    "deploy": "wrangler deploy",
+    "dev": "wrangler dev",
+    "start": "wrangler dev",
+    "ngrok": "ngrok http 8787",
+    "register_commands": "node src/register.js"
+  },
+  "devDependencies": {
+    "dotenv": "^16.4.5",
+    "ngrok": "^5.0.0-beta.2",
+    "wrangler": "^3.60.3"
+  },
+  "dependencies": {
+    "discord-interactions": "^4.1.0",
+    "itty-router": "^5.0.18"
+  }
+}
